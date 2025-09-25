@@ -1,7 +1,5 @@
 # Supporting Guide to Linera Documentation Repository
 
-Welcome to this supporting guide for the [linera-io/linera-documentation](https://github.com/linera-io/linera-documentation) repository. This repository contains the source files for the Linera developer documentation, hosted at [linera.dev](https://linera.dev). The docs are built using mdBook, with Markdown files organized primarily under the `src/` directory. Navigating the raw files can be challenging due to nested folders, so this guide provides a logical, educational sequence to explore the content.
-
 This guide is designed for both technical developers (who may dive into code examples and SDK details) and non-technical users (who can focus on high-level concepts and overviews). We'll start with foundational knowledge and build progressively, helping you assimilate information step by step. Each section includes:
 
 - **Overview**: A brief explanation of what the section covers and why it's important.
@@ -167,9 +165,8 @@ Supplementary materials.
 - Watch videos for visual explanations.
 
 ## Additional Repo Navigation Tips
-- **Root Files**: Check [`README.md`](https://github.com/linera-io/linera-documentation/blob/main/README.md) for build instructions, [`book.toml`](https://github.com/linera-io/linera-documentation/blob/main/book.toml) for mdBook config, and [`src/SUMMARY.md`](https://github.com/linera-io/linera-documentation/blob/main/src/SUMMARY.md) for the raw table of contents.
+- **Root Files**: Check [`README.md`](https://github.com/linera-io/linera-documentation/blob/main/README.md) for build instructions, [`book.toml`](https://github.com/linera-io/linera-documentation/blob/main/book.toml) for mdBook config.
 - **Building Locally**: Follow root README to run mdBook and view docs locally.
-- **Contributing**: See [issue #205](https://github.com/linera-io/linera-documentation/issues/205) for ideas like chatbots; contribute by editing md files and PRs.
 - **Search Tip**: Use GitHub search in the repo for keywords across files.
 
 This guide sequences content to build knowledge progressively: concepts → building → operating → references. Revisit sections as needed for reinforcement. For updates, check the repo commits.
